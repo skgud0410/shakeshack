@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="SHAKESHACK, 쉐이크쉑, 쉑쉑, 쉑쉑버거, 쉐이크쉑버거, 수제버거, 햄버거, 버거, HAMBURGER, BURGER, SHAKE, SHACK, 쉑쉑버거 뉴욕, 쉐이크쉑 뉴욕, 뉴욕 쉐이크쉑, 뉴욕 버거">
+    <meta property="og:site_name" content="SHAKE SHACK">
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <title>SHAKE SHACK KOREA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        :root {
+            --swiper-theme-color:#a3e791;
+            --swiper-pagination-progressbar-bg-color:rgba(228,228,228,.70);
+        }
+        /* main-banner 스타일 */
+        #main-banner{margin-top: 136px; margin-bottom: 53px;}
+        .swiper-pagination-progressbar{background:var(--swiper-pagination-progressbar-bg-color);}
+        .swiper-button-next, .swiper-button-prev{color:var(--sub02-color);}
+        
+        /* page-list 스타일 */
+        #page-list{margin-bottom: 72px;}
+        #page-list .container{display: flex; max-width: 1120px; justify-content: space-between; 
+            margin: 0 auto;}
+        #page-list img{max-width: 520px; border-radius: 50px;}
+       
+
+        /* news-event 스타일 */
+        #news-event{margin-bottom: 50px;}
+        #news-event .container{display: block; max-width: 1120px; margin: 0 auto;}
+        #news-event h2{font-weight: 600; font-size: 40px; margin-bottom: 16px;}
+        #news-event ul{display: flex; max-width: 1120px; justify-content: space-between;}
+        #news-event li{width: 334px; box-shadow: 5px 5px 5px #e5e5e5; border-radius: 50px;}
+        #news-event img{border-radius: 50px 50px 0 0 ; margin-bottom: 20px;}
+        #news-event p{padding: 0 0 40px 20px; font-family: 'kor'; font-weight: 600; font-size: 22px; }
+
+        
+    
+        
+            
+    
+    </style>
+</head>
+<body>
+    <section class="wrap">
+        <div id="sns-wrap">
+            <div class="container sns-box">
+                <p>follow us</p>
+                <ul>
+                    <li class="insta"><a href="https://www.instagram.com/shakeshackkr/">Instagram</a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/channel/UCw86ggEkvY8_RXpvCFjNS6g">Youtube</a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/shakeshackkorea">Facebook</a></li>
+                    <li class="kakao"><a href="https://pf.kakao.com/_xdlBDj">Kakao Channel</a></li>
+                </ul>
+            </div>
+        </div>
+        <header id="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="./index.html">SHAKESHACK</a>
+                </div>
+                <nav class="q-nav">
+                    <ul>
+                        <li><a href="./brandstory.html">OUR VALUES<span></span></a></li>
+                        <li><a href="./menu.html">MENU</a></li>
+                        <li><a href="./location.html">LOCATIONS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="main-banner">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/main-banner01.jpg" alt="banner01"></div>
+                    <div class="swiper-slide"><img src="./images/main-banner02.jpg" alt="banner02"></div>
+                    <div class="swiper-slide"><img src="./images/main-banner03.jpg" alt="banner03"></div>
+                    <div class="swiper-slide"><img src="./images/main-banner04.jpg" alt="banner04"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section id="order-button">
+            <button><a href="#">ORDER<br>NOW</a></button>
+        </section>
+        <section id="page-list">
+            <div class="container">
+                <div class="page01">
+                    <a href="#"><img src="./images/sub-banner01.jpg" alt="page01"></a>
+                </div>
+                <div class="page02">
+                    <a href="#"><img src="./images/sub-banner01.jpg" alt="page01"></a>
+                </div>
+            </div>
+            
+        </section>
+        <section id="news-event">
+            <div class="container">
+                <h2>News & Event</h2>
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/img-news05.jpg" alt="news05"></a>
+                        <p>쉐이크 쉑 여의도IFC몰점<br>GRAND OPEN!</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="images/img-news03.jpg" alt="news03"></a>
+                        <p>24년도 첫 한정메뉴 체리 페퍼<br>‘쉑마이스터 버거’출시!</p>
+                    </li>
+                    <li>
+                        <a href=""><img src="./images/img-news06.jpg" alt="news06"></a>
+                        <p>시즌 한정 신메뉴<br>‘멕시칸 스파이시’ 3종 출시!</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="share">
+            <div class="container">
+                <p>공유하기</p>
+                <ul>
+                    <li><a href="#">링크 복사하기</a></li>
+                    <li><a href="https://www.facebook.com/">페이스북 공유하기</a></li>
+                    <li><a href="https://x.com/intent/post?text=%EB%89%B4%EC%9A%95%EC%97%90%EC%84%9C+%EC%98%A8+%ED%8C%8C%EC%9D%B8+%EC%BA%90%EC%A3%BC%EC%96%BC+%EB%8B%A4%EC%9D%B4%EB%8B%9D%2C+%EC%89%90%EC%9D%B4%ED%81%AC%EC%89%91&url=http%3A%2F%2Fwww.shakeshack.kr%2F">트위터 공유하기</a></li>
+                    <li><a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fsharer.kakao.com%2Fpicker%2Flink%3Fapp_key%3Dba97fde971abd566bb649830358f23aa%26short_key%3Df0201cef-9470-4b36-9faf-47315d4d0bcd#login">카카오톡 공유하기</a></li>
+                </ul>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <ul class="footer-nav">
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./location.html">Location</a></li>
+                        <li><a href="./brandstory.html">Our Values</a></li>
+                        <li><a href="">News & Event</a></li>
+                        <li><a href="#">Order Now</a></li>
+                        <li><a href="#">Big Order</a></li>
+                        <li><a href="#">SHAKE SHACK Global</a></li>
+                    </ul>
+                    <ul class="footer-sns">
+                        <li><a href="#"><img src="./images/icon_insta.svg" alt="icon_insta">인스타</a></li>
+                        <li><a href="#"><img src="./images/icon_youtube.svg" alt="icon_youtube">유튜브</a></li>
+                        <li><a href="#"><img src="./images/icon_facebook.svg" alt="icon_facebook">페이스북</a></li>
+                        <li><a href="#"><img src="./images/icon_kakao.svg" alt="icon_kakao">카카오톡</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>고객센터 | SCP홈페이지 | 안전보건경영방침 | 윤리신고센터 | 영상정보처리긱운영관리방침 | 공지사항</p>
+                    <p>©2004-2023 Shake Shack. All rights Reserved.<br>
+                        Some information on this site may vary slightly by location and in stadium, event venues and international Shacks.</p>
+                </div>
+                    
+
+                
+
+            </div>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            type: "progressbar",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+   
+</body>
+</html>

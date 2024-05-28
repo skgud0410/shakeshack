@@ -1,0 +1,78 @@
+@charset 'utf-8';
+
+@font-face {font-family:'kor'; src:url(../fonts/NotoSansKR.ttf);}
+@font-face {font-family:'eng'; src:url(../fonts/JosefinSans.ttf);}
+:root{
+    --main-color:#418613;
+    --sub01-color:#000;
+    --sub02-color:#fff;
+    --sub03-color: #fff4b8;
+    --swiper-theme-color:#a3e791;
+    --swiper-pagination-progressbar-bg-color:rgba(228,228,228,.70);
+    --text01:#acacac;
+    --text02:#707070;
+    --text03:#444;
+    font-family: 'NotoSansKR'; font-weight: 400; font-size: 20px; 
+    color: var(--sub01-color);
+}
+.wrap{overflow: hidden;}
+#sns-wrap{display: none; position: fixed; left: 0; right: 0; top: 0; height: 40px; 
+    background: var(--sub01-color); color: var(--sub02-color);}
+#sns-wrap .container{display: flex; font-family: 'eng'; line-height: 2;}
+#sns-wrap .container ul{display: flex;}
+
+/* header 스타일 */
+#header{z-index: 10000; position: fixed; left: 0; right: 0; top: 0; background: var(--sub02-color);padding:10px 0;}
+#header .container{display: flex; justify-content:space-between; align-items: center;
+    margin: 0 auto;padding:0 62px;}            
+#header .container::before{content:''; display: block; width:456px;}
+.logo>a{display: block;width:50px;height:72px;background: url(../images/ss_logo.svg) no-repeat center; background-size:contain; text-indent: -9999999px;;}
+#header .container .q-nav ul{display: flex;}
+#header .container .q-nav li{margin-left:44px; font-weight: 600; font-size: 22px;}
+#header .q-nav li a{position: relative;}
+#header .q-nav li:hover a{padding-bottom: 5px; color: #418613; border-bottom: 4px solid #418613;}
+
+
+ /* order-button 스타일 */
+#order-button{z-index: 1000; position: fixed; right: 170px; top: 780px;}
+#order-button:hover button{width: 110px; height: 110px; border-radius: 60px;}
+#order-button button{display: flex; justify-content: center; align-items: center; width: 100px; height: 100px; 
+    border-radius: 50px; border: 2px solid #fff; background:url(../images/ordernow-background.jpg); 
+    color: white; font-weight: 700; font-size: 22px; line-height: 1.5; text-align: center; 
+    padding-top: 6px;}
+
+
+ /* share 스타일 */
+#share{margin-bottom: 38px;}
+#share .container{display: flex; max-width: 330px; margin: 0 auto;}
+#share ul{display: flex; align-items: center;}
+#share p{margin-right: 30px; padding-top: 6px; font-size: 15px; color: var(--text01);}
+#share li{margin-right: 25px;}
+#share li a{display: block; width: 32px; height: 32px; background: url(../images/icon_share_link.svg)
+    no-repeat center; background-size: contain; text-indent: -9999px;}
+#share li:nth-child(2) a{background-image: url(../images/icon_share_facebook.svg);}
+#share li:nth-child(3) a{background-image: url(../images/icon_share_twitter.svg);}
+#share li:last-child a{background-image: url(../images/icon_share_kakaotalk.svg);}
+ 
+ 
+ 
+ /* footer 스타일 */
+ footer{background: var(--main-color);}
+ footer .container{background: url(../images/footer-background.jpg) no-repeat center;}
+ .footer-top{max-width: 1120px; display: flex; justify-content: space-between; margin: 0 auto;
+     border-bottom:2px solid var(--sub02-color); margin-bottom: 15px; font-size: 20px;}
+ .footer-nav{display: block; margin-top: 56px;}
+ .footer-nav li{font-family: 'eng'; font-weight: 500; color: var(--sub02-color);
+     margin-bottom: 15PX;}
+ .footer-sns{display: flex; padding-top: 258px;}
+ .footer-sns li{margin-left: 20px;}
+ .footer-sns li a{display: block; width: 32px; height: 32px; 
+     background: url(../images/icon_insta.svg) no-repeat center; background-size: contain; 
+     text-indent: -99999px;}
+ .footer-sns li:nth-child(2) a{background-image: url(../images/icon_youtube.svg);}
+ .footer-sns li:nth-child(3) a{background-image: url(../images/icon_facebook.svg);}
+ .footer-sns li:last-child a{background-image: url(../images/icon_kakao.svg);}
+ .footer-bottom{max-width: 1120px; margin: 0 auto; font-size: 15px; color: var(--sub02-color);
+     padding-bottom: 30px;}
+ .footer-bottom p{line-height: 1.5;}
+ .footer-bottom p:last-child{font-family: 'eng'; font-size: 15px; margin-top: 18px;}

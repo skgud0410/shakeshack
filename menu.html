@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="SHAKESHACK, 쉐이크쉑, 쉑쉑, 쉑쉑버거, 쉐이크쉑버거, 수제버거, 햄버거, 버거, HAMBURGER, BURGER, SHAKE, SHACK, 쉑쉑버거 뉴욕, 쉐이크쉑 뉴욕, 뉴욕 쉐이크쉑, 뉴욕 버거">
+    <meta property="og:site_name" content="SHAKE SHACK">
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <title>SHAKE SHACK KOREA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        :root {
+            --swiper-theme-color:#a3e791;
+            --swiper-pagination-progressbar-bg-color:rgba(228,228,228,.70);
+        }
+        /* menu-banner 스타일 */
+        #menu-banner{margin-top: 77px; margin-bottom: 53px;}
+        #menu-banner h1{font-weight: 700; font-size: 70px; padding-left: 93px;}
+        #menu-banner .img-box{margin-top: -17px;}
+        .m-banner-txt{height: 280px; background: url(./images/menu-banner.jpg) no-repeat center;
+            color: var(--sub02-color); margin-top: -17px;}
+        .m-banner-txt h2{font-weight: 600; font-size: 70px; padding: 10px 0 25px 0;}
+        .m-banner-txt p{font-weight: 600; font-size: 22px; line-height: 1.8;}
+        .m-banner-txt p:first-child{padding-top: 20px;}
+        .m-banner-txt h2, .m-banner-txt p{ padding-left: 93px;}
+        
+        /* menu-tit 스타일 */
+        #menu-tit{max-width: 1120px;margin: 0 auto 30px auto;}
+        #menu-tit h2{margin-bottom: 10px; font-family: 'eng'; font-weight: 700; font-size: 30px;}
+        #menu-tit h2 span{padding-left: 10px; font-size: 26px;}
+        #menu-tit p{font-size: 18px; color: var(--text02); line-height: 27px;}
+
+
+        /* menu 스타일 */
+        #menu{margin-bottom: 50px;}
+        #menu .container{display: grid; grid-template-columns: repeat(12,1fr);margin: 0 auto; 
+            max-width: 1440px; width: 100%; height: 100%; padding: 0 75px;}
+        #menu .tab-list{grid-column: 1/2; text-indent: -9999px;}
+        #menu .menu-list{grid-column: 2/12;}
+        .tab-list li{width: 44px; height: 50px; margin-bottom: 30px; 
+            background: url(./images/burger-green.svg) no-repeat center; cursor: pointer;}
+        .tab-list li:nth-child(2){background-image: url(./images/chicken-grey.svg);}
+        .tab-list li:nth-child(3){background-image: url(./images/hot_dog-grey.svg);}
+        .tab-list li:nth-child(4){background-image: url(./images/fries-grey.svg);}
+        .tab-list li:nth-child(5){background-image: url(./images/ice_cream-grey.svg);}
+        .tab-list li:nth-child(6){background-image: url(./images/concretes-grey.svg);}
+        .tab-list li:nth-child(7){background-image: url(./images/drinks-grey.svg);}
+        .tab-list li:nth-child(8){background-image: url(./images/woof-grey.svg);}
+        .tab-list li:nth-child(9){background-image: url(./images/breakfast-grey.svg);}
+        .menu-content01 h2{font-weight: 700; font-size: 30px; margin-bottom: 10px;}
+        .menu-content01 h2 span{padding: 0 0 0 10px; font-size: 26px;}
+        .menu-txt{font-size: 18px; color: var(--text02); margin-bottom: 30px;}
+        .ss-menu-list p{font-size: 17px; color: var(--text02);}
+        .ss-menu-list ul{display: grid; grid-template-columns: 1fr 1fr 1fr; 
+            grid-template-rows: 1fr 1fr; gap: 20px;}
+        .burger img{border-radius: 10px 10px 0 0; }
+        .txt-box{display: flex; justify-content:space-between; flex-direction: column; 
+            padding: 18px; border: 1px solid #e6e6e6; border-radius: 0 0 10px 10px;
+            min-height: 290px;}
+        .txt-box button{width: 120px; height: 40px; margin: 0 auto; border-radius: 50px;
+            border: transparent; color: white;  background: #000; font-weight: 800; 
+            font-size: 16px;}
+        .f-h3{font-weight: 600; font-size: 30px;}
+        .l-h3{font-weight: 800;}
+        .f-p{margin-bottom: 10px;}
+
+
+
+    </style>
+</head>
+<body>
+    <section class="wrap">
+        <div id="sns-wrap">
+            <div class="container sns-box">
+                <p>follow us</p>
+                <ul>
+                    <li class="insta"><a href="https://www.instagram.com/shakeshackkr/">Instagram</a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/channel/UCw86ggEkvY8_RXpvCFjNS6g">Youtube</a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/shakeshackkorea">Facebook</a></li>
+                    <li class="kakao"><a href="https://pf.kakao.com/_xdlBDj">Kakao Channel</a></li>
+                </ul>
+            </div>
+        </div>
+        <header id="header">
+            <div class="container">
+                <div class="logo">
+                    <a href="./index.html">SHAKESHACK</a>
+                </div>
+                <nav class="q-nav">
+                    <ul>
+                        <li><a href="./brandstory.html">OUR VALUES<span></span></a></li>
+                        <li><a href="./menu.html">MENU</a></li>
+                        <li><a href="./location.html">LOCATIONS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="menu-banner">
+           <div class="container">
+                <h1>MENU</h1>
+                <div class="m-banner-txt">
+                    <P>LIMITED-TIME OFFER</P>
+                    <h2>MEXICAN <SPAN>SPICY</SPAN></h2>
+                    <p>
+                       매콤하고 스모키한 풍미의 멕시칸 스타일 !
+                       <br>살사 마차 마요가 매력적인 <span>시즌 한정 메뉴</span>
+                    </p>
+                </div>
+           </div>
+        </section>
+        <section id="order-button">
+            <button><a href="#">ORDER<br>NOW</a></button>
+        </section>
+        <section id="menu">
+            <div class="container">
+                <ul class="tab-list">
+                    <li class="tab01">BURGERS</li>
+                    <li class="tab02">CHICKEN</li>
+                    <li class="tab03">FLAT-TOP DOGS</li>
+                    <li class="tab04">SIDE</li>
+                    <li class="tab05">CUSTARD</li>
+                    <li class="tab06">CONCRETES</li>
+                    <li class="tab07">DRINKS</li>
+                    <li class="tab08">WOOF</li>
+                    <li class="tab09">BREAKFAST</li>
+                </ul>
+                <div class="menu-list">
+                    <div class="menu-content01">
+                        <h2>BURGERS<span>버거</span></h2>
+                        <p class="menu-txt">쉐이크쉑의 시그니처 비프 패티와 쫄깃한 식감의 토종효모 포테이토 번, 토마토, 양상추에 쉑소스를 올려 만든 심플하면서도 맛있는 쉑버거와 그 외 다양한 버거 메뉴가 있습니다. 쉐이크쉑 코리아는 늘 신선한 맛과 품질 유지를 위해 쉐이크쉑 본사에서 승인한 국내의 우수한 파트너사의 식재료를 사용합니다.</p>
+                        <div class="ss-menu-list">
+                            <ul>
+                                <li>
+                                    <div class="burger burger01">
+                                        <div class="img-box">
+                                            <img src="./images/burger01.jpg" alt="burger01">
+                                        </div>
+                                        <div class="txt-box txt-box01">
+                                            <div class="burger-txt">
+                                                <h3 class="f-h3">ShackBurger™</h3>
+                                                <h3 class="l-h3">쉑버거</h3>
+                                                <p class="f-p">비프 패티와 함께 토마토, 양상추, 쉑소스가 토핑된 치즈버거</p>
+                                                <p class="l-f">Single W 8,9<br>Double W 13,7</p>
+                                            </div>
+                                            <button><a href="#">구매하기</a></button>
+                                        </div>
+                                            
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="burger burger02">
+                                        <div class="img-box">
+                                            <img src="./images/burger02.jpg" alt="burger01">
+                                        </div>
+                                        <div class="txt-box txt-box02">
+                                            <div class="burger-txt">
+                                                <h3 class="f-h3">SmokeShack™</h3>
+                                                <h3 class="l-h3">스모크쉑</h3>
+                                                <p class="f-p">애플 우드 칩으로 훈연한 짭짤한 베이컨, 매콤한 체리 페퍼, 비프 패티와 쉑소스가 토핑된 치즈버거</p>
+                                                <p class="l-f">Single W 11,1<br>Double W 15,9</p>
+                                            </div>
+                                            <button><a href="#">구매하기</a></button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="burger burger03">
+                                        <div class="img-box">
+                                            <img src="./images/burger03.jpg" alt="burger01">
+                                        </div>
+                                        <div class="txt-box txt-box03">
+                                            <div class="burger-txt">
+                                                <h3 class="f-h3">Shroom Burger</h3>
+                                                <h3 class="l-h3">슈룸버거</h3>
+                                                <p class="f-p">치즈로 속을 채워 바삭하게 튀겨낸 포토벨로 버섯 패티에 양상추, 토마토, 쉑소스를 올린 베지테리안 버거</p>
+                                                <p class="l-f">W 10,5</p>
+                                            </div>
+                                            <button><a href="#">구매하기</a></button>
+                                        </div>
+                                            
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="burger burger04">
+                                        <div class="img-box">
+                                            <img src="./images/burger04.jpg" alt="burger01">
+                                        </div>
+                                        <div class="txt-box txt-box04">
+                                            <div class="burger-txt">
+                                                <h3 class="f-h3">Shack Stack™</h3>
+                                                <h3 class="l-h3">쉑스테이크</h3>
+                                                <p class="f-p">포토벨로 버섯 패티, 비프 패티와 함께 토마토, 양상추, 쉑소스가 토핑된 치즈버거</p>
+                                                <p class="l-f">W 15,3</p>
+                                            </div>
+                                            <button><a href="#">구매하기</a></button>
+                                        </div>
+                                            
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="burger burger05">
+                                        <div class="img-box">
+                                            <img src="./images/burger05.jpg" alt="burger01">
+                                        </div>
+                                        <div class="txt-box txt-box05">
+                                            <div class="burger-txt">
+                                                <h3 class="f-h3">Hamburger</h3>
+                                                <h3 class="l-h3">햄버거</h3>
+                                                <p class="f-p">포테이토 번과 비프 패티를 기본으로 신선한 양상추, 토마토, 피클, 양파 토핑을 취향에 따라 선택할 수 있는 버거</p>
+                                                <p class="l-f">W 7,3</p>
+                                            </div>
+                                            <button><a href="#">구매하기</a></button>
+                                        </div>
+                                           
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>    
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="share">
+            <div class="container">
+                <p>공유하기</p>
+                <ul>
+                    <li><a href="#">링크 복사하기</a></li>
+                    <li><a href="https://www.facebook.com/">페이스북 공유하기</a></li>
+                    <li><a href="https://x.com/intent/post?text=%EB%89%B4%EC%9A%95%EC%97%90%EC%84%9C+%EC%98%A8+%ED%8C%8C%EC%9D%B8+%EC%BA%90%EC%A3%BC%EC%96%BC+%EB%8B%A4%EC%9D%B4%EB%8B%9D%2C+%EC%89%90%EC%9D%B4%ED%81%AC%EC%89%91&url=http%3A%2F%2Fwww.shakeshack.kr%2F">트위터 공유하기</a></li>
+                    <li><a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Fsharer.kakao.com%2Fpicker%2Flink%3Fapp_key%3Dba97fde971abd566bb649830358f23aa%26short_key%3Df0201cef-9470-4b36-9faf-47315d4d0bcd#login">카카오톡 공유하기</a></li>
+                </ul>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <ul class="footer-nav">
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./location.html">Location</a></li>
+                        <li><a href="./brandstory.html">Our Values</a></li>
+                        <li><a href="">News & Event</a></li>
+                        <li><a href="#">Order Now</a></li>
+                        <li><a href="#">Big Order</a></li>
+                        <li><a href="#">SHAKE SHACK Global</a></li>
+                    </ul>
+                    <ul class="footer-sns">
+                        <li><a href="#"><img src="./images/icon_insta.svg" alt="icon_insta">인스타</a></li>
+                        <li><a href="#"><img src="./images/icon_youtube.svg" alt="icon_youtube">유튜브</a></li>
+                        <li><a href="#"><img src="./images/icon_facebook.svg" alt="icon_facebook">페이스북</a></li>
+                        <li><a href="#"><img src="./images/icon_kakao.svg" alt="icon_kakao">카카오톡</a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>고객센터 | SCP홈페이지 | 안전보건경영방침 | 윤리신고센터 | 영상정보처리긱운영관리방침 | 공지사항</p>
+                    <p>©2004-2023 Shake Shack. All rights Reserved.<br>
+                        Some information on this site may vary slightly by location and in stadium, event venues and international Shacks.</p>
+                </div>
+                    
+
+                
+
+            </div>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+       
+      </script>
+   
+</body>
+</html>
